@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bg.gif);
+    background-size: 100% 100%;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox {
+    width: 420px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(44, 78, 116, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBox h1 {
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 50%;
+}
+
+.formBox h2 {
+    font-size: 15px;
+    color: #ffffff71;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.inputGroup {
+    text-align: center;
+}
+
+.inputArea {
+    margin: 15px 15px;
+    padding: 0 20px;
+    border: 1px solid rgba(44, 78, 116, 0.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #191a26;
+    text-shadow: 1px 1px 3px #fff;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 25px;
+    color: #fff;
+}
+
+input::placeholder {
+    color: #d8d8d8;
+    text-shadow: 1px 1px 3px #191a26;
+}
+
+.send {
+    width: 40%;
+    border: 1px solid #0d043136;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    color: #d8d8d8;
+    text-shadow: 1px 1px 3px #191a26;
+    background: #0d043136;
+    font-size: 15px;
+}
+
+.inputGroup p {
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px #191a26;
+}
+
+.inputGroup p a {
+    text-decoration: none;
+    color: #191a26;
+    text-shadow: 1px 1px 3px #fff;
+}
+
+.btnArea {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnArea a {
+    border: 1px solid rgba(44, 78, 116, 0.5);
+    border-radius: 10px;
+    outline: 0;
+    margin-top: 20px;
+    padding: 5px 10px;
+    background: #ffffff36;
+    color: #191a26;
+    text-shadow: 1px 1px 3px #fff;
+    text-decoration: none;
+}
+
+.btnArea a.disable {
+    background: transparent;
+    color: #fff;
+    text-shadow: 1px 1px 3px #191a26;
+}
+
+.alert {
+    width: 70%;
+    height: 30px;
+    background: #ffffff28;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
